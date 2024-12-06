@@ -6,6 +6,11 @@ spring:
         remove-existing-vector-store-table: true
     openai:
       api-key: "YOUR-KEY"
+    ollama:
+      embedding:
+        enabled: false
+      chat:
+        enabled: false
   jpa:
     generate-ddl: true
 ---

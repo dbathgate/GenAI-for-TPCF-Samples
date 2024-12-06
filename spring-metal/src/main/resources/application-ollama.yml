@@ -1,0 +1,14 @@
+spring:
+  ai:
+    ollama:
+      chat:
+        enabled: true
+        model: gemma2:2b
+      embedding:
+        enabled: true
+        model: nomic-embed-text
+    openai:
+      chat:
+        enabled: false
+      embedding:
+        enabled: false
